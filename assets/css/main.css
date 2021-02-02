@@ -2767,14 +2767,14 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			width: 70%;
+			width: 100%;
 		}
 
 			.spotlight .content > :last-child {
 				margin-bottom: 0;
 			}
 
-		.spotlight:nth-child(2n) {
+		/*.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
@@ -2787,7 +2787,7 @@ input, select, textarea {
 
 			.spotlight:nth-child(2n) .content {
 				text-align: right;
-			}
+			}*/
 
 	@media screen and (max-width: 736px) and (orientation: landscape) {
 
